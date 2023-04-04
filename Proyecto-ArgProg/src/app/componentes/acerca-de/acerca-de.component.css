@@ -22,6 +22,26 @@ div {
         top: 750px;
     }
 }
+@media (max-width: 1060px){
+    #foto-perfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 3%;
+        top: 750px;
+    }
+}
+@media (min-width: 1061px){
+    #foto-perfil {
+        position: absolute;
+        width: 12%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 3%;
+        top: 700px;
+    }
+}
 @media (max-width: 575px){
     #foto-perfil {
         position: absolute;
