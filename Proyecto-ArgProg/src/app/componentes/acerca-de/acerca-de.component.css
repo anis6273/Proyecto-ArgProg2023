@@ -1,5 +1,5 @@
 .row {
-    padding: 20px;
+    padding: auto;
 }
 div {
     background-color: #a1b5cb;
@@ -49,6 +49,6 @@ div {
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 40%;
-        top: 700px;
+        top: 950px;
     }
 }
