@@ -1,0 +1,4 @@
+FROM amazoncorretto:11-alpine-jdk
+MAINTAINER DNP
+COPY target/dnp-0.0.1-SNAPSHOT.jar  dnp-app.jar
+ENTRYPOINT ["java","-jar","/dnp-app.jar"]
